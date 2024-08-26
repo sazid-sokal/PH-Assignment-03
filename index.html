@@ -14,10 +14,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <header class="bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] mb-10 lg:mb-28">
+<body class="">
+    <header class="bg-gradient-to-b from-[#f4f4f4] to-[#ffffff] mb-10 lg:mb-8">
         <!-- nav-bar -->
-        <div class="navbar flex items-center max-w-screen-xl mx-auto py-5">
+        <div class="navbar flex items-center max-w-screen-xl mx-auto p-5">
             <!-- nav-start -->
             <div class="navbar-start">
                 <h1 class=" font-bold flex items-center gap-2"><i
@@ -52,10 +52,10 @@
         </div>
 
         <!-- hero-section -->
-        <div class="max-w-screen-xl mx-auto py-20">
+        <div class="max-w-screen-xl mx-auto py-10 px-5">
             <!-- img contaniner -->
             <div>
-                <img class="w-3/6 mx-auto mb-6" src="./assets/banner.png" alt="">
+                <img class="w-full lg:w-3/6 mx-auto mb-6" src="./assets/banner.png" alt="">
             </div>
             <!-- text container -->
             <div class="flex flex-col items-center text-center">
@@ -71,49 +71,88 @@
                 </div>
             </div>
         </div>
-
-        <!-- about section -->
-        <div class="bg-[#f4f4f4]">
-        <div class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2">
-                <!-- left div-->
-            <div class="py-20">
-                <div class="rounded-3xl bg-white inline-block py-2 px-4 mb-5"><i class="fa-solid fa-arrow-right"></i> About Us
-                </div>
-                <h2 class="text-4xl font-bold mb-5">We design thoughtful, <br> liveable spaces</h2>
-                <p class="mb-5">The barn house captivates with its blend of rustic charm and <br>
-                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                    <!-- 1st card -->
-                <div class="card card-side bg-base-100 shadow-xl mb-5">
-                    <figure class="pl-4">
-                        <img src="./assets/commercial.png"
-                            alt="Movie" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Commercial</h2>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                    </div>
-                </div>
-                <!-- 2nd card -->
-                <div class="card card-side bg-base-100 shadow-xl">
-                    <figure class="pl-4">
-                        <img src="./assets/residential.png"
-                            alt="Movie" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Residential</h2>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                    </div>
-                </div>
-
-            </div>
-            <!-- right div -->
-            <div class="">
-                <img class="w-full lg:p-14" src="./assets/Rectangle.png" alt="">
-            </div>
-        </div>
-        </div>
     </header>
-    <main></main>
+    <main>
+        <!-- about section -->
+        <div class="bg-[#f4f4f4] p-5">
+            <div class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 relative">
+                <div class="hidden lg:block absolute top-7 left-36">
+                    <img src="./assets/Vector.png" alt="">
+                </div>
+                    <!-- left div-->
+                <div class="py-20 text-center">
+                    <div class="rounded-3xl bg-white inline-block py-2 px-4 mb-5"><i class="fa-solid fa-arrow-right"></i> About Us
+                    </div>
+                    <h2 class="text-4xl font-bold mb-5">We design thoughtful, <br> liveable spaces</h2>
+                    <p class="mb-5">The barn house captivates with its blend of rustic charm and <br>
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        <!-- 1st card -->
+                    <div class="card card-side bg-base-100 shadow-xl mb-5">
+                        <figure class="pl-4">
+                            <img src="./assets/commercial.png"
+                                alt="Movie" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Commercial</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <!-- 2nd card -->
+                    <div class="card card-side bg-base-100 shadow-xl">
+                        <figure class="pl-4">
+                            <img src="./assets/residential.png"
+                                alt="Movie" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Residential</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+    
+                </div>
+                <!-- right div -->
+                <div class="">
+                    <img class="w-full lg:p-14" src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Works Section -->
+        <div class="bg-[#f4f4f4] p-5">
+            <div class="max-w-screen-xl mx-auto mt-10">
+                <!-- content -->
+            <div class="text-center">
+                <div class="rounded-3xl bg-white inline-block py-2 px-4 mb-5"><i class="fa-solid fa-arrow-right"></i> How we works
+                </div>
+                <h2 class="text-4xl font-bold mb-5">Our Works Process</h2>
+                <p class="mb-5">The barn house captivates with its blend of rustic charm and modern sophistication,  <br>featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- card -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:mt-4 mb-20">
+                <div class="bg-red-200 p-5 rounded-xl">
+                    <img class="mb-4" src="./assets/concept.png" alt="">
+                    <h3 class="text-xl font-bold mb-4">Concept</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="bg-yellow-200 p-5 rounded-xl">
+                    <img class="mb-4" src="./assets/flow-chart.png" alt="">
+                    <h3 class="text-xl font-bold mb-4">Design Process</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="bg-teal-200 p-5 rounded-xl">
+                    <img class="mb-4" src="./assets/vision.png" alt="">
+                    <h3 class="text-xl font-bold mb-4">Supervision</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="bg-sky-300 p-5 rounded-xl">
+                    <img class="mb-4" src="./assets/budget-planning.png" alt="">
+                    <h3 class="text-xl font-bold mb-4">Budget Planning</h3>
+                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 
